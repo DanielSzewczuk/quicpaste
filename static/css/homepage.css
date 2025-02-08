@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: 'Dm Serif Text', serif;
+}
+
+body {
+    display: flex;
+    background-color: #3D3D3D;
+    color: #DCD7C9;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3rem;
+        color: #FFFAEC;
+    }
+
+    b {
+        color: #FFFAEC;
+    }
+
+    ::selection {
+        background-color: #578E7E;
+        color: #FFFAEC;
+      }
+      
+      ::-moz-selection {
+        background-color: #578E7E;
+        color: #FFFAEC;
+      }
+
+}
